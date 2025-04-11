@@ -1,5 +1,5 @@
 {
-    "name": "TheMovieProviderBot",
+    "name": "TheKingMoviez",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -19,23 +19,23 @@
     "repository": "https://github.com/HarshalPurohitEdits/TheMovieProviderBot",
     "env": {
         "BOT_TOKEN": {
-            "description": "Your bot token.",
+            "description": "7418608135",
             "required": true
         },
         "API_ID": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "22968232",
             "required": true
         },
         "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
+            "description": "c5dcf6a35d7ef8f614bb6609f0467395",
             "required": true
         },
         "CHANNELS": {
-            "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "description": "7049124442",
             "required": false
         },
         "ADMINS": {
-            "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "description": "7049124442",
             "required": true
         },
         "PICS": {
@@ -43,7 +43,7 @@
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "description": "-1002206875745",
             "required": true
         },
         "AUTH_USERS": {
@@ -51,15 +51,15 @@
             "required": false
         },
         "AUTH_CHANNEL": {
-            "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "description": "-1002337053920",
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
+            "description": "mongoDB URI. mongodb://Moviesbot:Admin2mango@ac-yssyycu-shard-00-00.oxxnavq.mongodb.net:27017,ac-yssyycu-shard-00-01.oxxnavq.mongodb.net:27017,ac-yssyycu-shard-00-02.oxxnavq.mongodb.net:27017/?replicaSet=atlas-bhb9ko-shard-0&ssl=true&authSource=admin&retryWrites=true&w=majority&appName=TheKing",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB.",
+            "description": "MovieDB",
             "required": false
         },
         "COLLECTION_NAME": {
